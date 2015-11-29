@@ -1,0 +1,5 @@
+[run]
+include = djstripe_dev/*
+omit = *migrations*, *tests*
+plugins =
+    django_coverage_plugin
